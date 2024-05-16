@@ -54,7 +54,7 @@ header #navbar .nav-list .nav-item a:hover{
 
 main{
     margin-top: 6rem;
-    padding: 0px 100px ;
+    
 }
 
 span{
@@ -68,6 +68,7 @@ main #banner{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 100px ;
 }
 
 main #banner .banner-content .banner-content-title{
@@ -93,11 +94,74 @@ main #banner .banner-content .banner-content-btn{
     padding: 15px;
     border: none;
     border-radius: 30px;
-    font-family: ;
+   
 }
 
 main #banner  .banner-image{
     border-radius: 50%;
    width: 40%;
    
+}
+
+/* SECTION POSTS */
+
+#posts{
+    margin-top: 71px;
+    background-color:  rgb(171, 194, 245);
+    padding: 0px 100px ;
+    
+ }
+
+#posts .posts-content{
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    
+}
+
+#posts .posts-content .posts-content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+
+}
+
+#posts .posts-content .posts-content-header .section-title{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#posts .posts-content .posts-content-header .view-all{
+    
+    
+}
+
+#posts .posts-content .posts-cards{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 60px;
+    
+}
+
+#posts .posts-content .posts-cards .post-card{
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 44px;
+    border-radius: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+#posts .posts-content .posts-cards .post-card h3{
+    font-size: 24px;
+    font-weight: 1;
+    margin-bottom: 16px;
+}
+
+#posts .posts-content .posts-cards .post-card span{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    display: block;
+    
 }
